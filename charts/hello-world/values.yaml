@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.107.77.27:5000/jenkinsx/hello-world
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: hello-world
